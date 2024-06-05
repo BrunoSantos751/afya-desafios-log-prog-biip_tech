@@ -1,9 +1,9 @@
-// Crie uma função que receba um array e retorna um array sem os elementos duplicados
-
-const numArray = [1, 2, 2, 3, 4, 4, 5];
-
-//Use a seguinte função para sua resposta
-function removeDup() {}
-
-removeDup();
-module.exports = { removeDup };
+function removeDuplicates(arr) {
+    // Seu código aqui
+    R_duplicados = new Set(arr);
+    new_arr = Array.from(R_duplicados);
+    return (new_arr);
+  }
+  
+  // Exemplo de uso:
+  console.log(removeDuplicates([1, 2, 2, 3, 4, 4, 5])); // [1, 2, 3, 4, 5]

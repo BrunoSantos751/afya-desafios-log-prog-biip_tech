@@ -1,10 +1,6 @@
-// Crie uma função para remover o último elemento do array
-
-const numArray = [1, 2, 3, 4, 5];
-
-//Use a seguinte função para sua resposta
-function removerUltElemento() {}
-
-removerUltElemento();
-
-module.exports = { removerUltElemento };
+function removeLastElement(arr) {
+    arr.pop()
+    return arr;
+  }
+  
+  console.log(removeLastElement([1, 2, 3, 4, 5]));

@@ -1,9 +1,8 @@
-// Crie uma função para adicionar um elemento ao final do array
-
-const numArray = [1, 2, 3, 4, 5];
-
-//Use a seguinte função para sua resposta
-function addElement() {}
-
-addElement();
-module.exports = { addElement };
+function addElementToEnd(arr, element) {
+    a = arr.push(element);
+    return (arr);
+ 
+   }
+   
+   // Exemplo de uso:
+   console.log(addElementToEnd([1, 2, 3, 4], 5)); // [1, 2, 3, 4, 5]

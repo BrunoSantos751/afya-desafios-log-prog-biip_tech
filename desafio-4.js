@@ -1,11 +1,8 @@
-// Crie uma função que receba um dado array e retorne um novo array com
-// cada valor dobrado
+function doubleValues(arr) {
+    for (i in arr){
+        arr[i] = arr[i] * 2;
+    } return arr;
+}
 
-const numArray = [1, 2, 3, 4, 5];
-
-//Use a seguinte função para sua resposta
-function doubleValues() {}
-
-doubleValues();
-
-module.exports = { doubleValues };
+// Exemplo de uso:
+console.log(doubleValues([1, 2, 3, 4])); // [2, 4, 6, 8]
